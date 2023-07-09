@@ -1,0 +1,55 @@
+body
+{
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+}
+
+nav
+{
+  height: 70px;
+  width: 100%;
+  display: flex;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+  align-items: center;
+}
+
+nav > img
+{
+  height: 5vh;
+  width: auto;
+  margin-left: 22px
+}
+
+.hero
+{
+  font-family: 'Poppins', sans-serif;
+  margin-left: 2%;
+}
+
+.hero > h1
+{
+  margin-top: 32px;
+  font-size: 4vw;
+}
+
+.hero > p
+{
+  font-size: 1.7vw;
+  width: 36%;
+
+}
+.photogrid
+{
+  display: flex;
+  justify-content: center;
+  margin-top: 96px;
+}
+
+.photogrid > img
+{
+  width: 72%
+}
+
+
+
