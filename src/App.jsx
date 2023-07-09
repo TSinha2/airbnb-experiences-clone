@@ -14,7 +14,8 @@ function App() {
           reviewCount={i.stats.reviewCount} 
           location={i.location} 
           title={i.title} 
-          price={i.price}/>);
+          price={i.price}
+          openSpots={i.openSpots}/>);
 
   return (
   <div>
